@@ -28,11 +28,11 @@ export function Hero({ onConsultationClick }: HeroProps) {
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-400 uppercase bg-blue-400/10 rounded-full border border-blue-400/20">
             Innovative IT Solutions
           </span>
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight">
-            비즈니스의 미래를 여는 <br/>
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight px-4 sm:px-0">
+            비즈니스의 미래를 여는 <br className="hidden sm:block"/>
             <span className="text-blue-500">스마트 IT 파트너</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
             {BRAND_NAME}은 SI/WEB 개발부터 협업 솔루션, 문서 보안까지 
             기업의 성장에 필요한 모든 IT 여정을 제안하고 함께합니다.
           </p>
