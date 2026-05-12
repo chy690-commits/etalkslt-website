@@ -5,3 +5,9 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
+@layer base {
+  html, body {
+    @apply overflow-x-hidden;
+  }
+}
+
