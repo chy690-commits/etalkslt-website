@@ -25,7 +25,7 @@ export function ServiceSection({ id, title, description, features, image, revers
             className="flex-1 space-y-8"
           >
             <div className="space-y-4">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
                 {title}
               </h2>
               <p className="text-lg text-slate-600 leading-relaxed max-w-xl">
