@@ -33,8 +33,8 @@ export function AboutSection() {
           >
             <div className="space-y-4">
               <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">About US</h2>
-              <h3 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
-                IT를 넘어 비즈니스의 <br/>
+              <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+                IT를 넘어 비즈니스의 <br className="hidden sm:block"/>
                 <span className="text-blue-600">정답을 제시합니다</span>
               </h3>
             </div>
@@ -45,16 +45,16 @@ export function AboutSection() {
               집중할 수 있는 환경을 구축합니다.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-4">
-              <div className="flex flex-col gap-2">
-                <p className="text-3xl font-black text-slate-900 flex items-center gap-2">
-                  10+ <span className="text-blue-600"><TrendingUp size={24} /></span>
+            <div className="grid grid-cols-2 gap-4 sm:gap-8 pt-4">
+              <div className="flex flex-col gap-1">
+                <p className="text-2xl sm:text-3xl font-black text-slate-900 flex items-center gap-2">
+                  10+ <span className="text-blue-600"><TrendingUp size={20} className="sm:w-6 sm:h-6" /></span>
                 </p>
-                <p className="text-sm font-bold text-slate-400 uppercase tracking-widest">Years of Experience</p>
+                <p className="text-[10px] sm:text-sm font-bold text-slate-400 uppercase tracking-widest">Years of Experience</p>
               </div>
-              <div className="flex flex-col gap-2">
-                <p className="text-3xl font-black text-slate-900">500+</p>
-                <p className="text-sm font-bold text-slate-400 uppercase tracking-widest">Happy Clients</p>
+              <div className="flex flex-col gap-1">
+                <p className="text-2xl sm:text-3xl font-black text-slate-900">500+</p>
+                <p className="text-[10px] sm:text-sm font-bold text-slate-400 uppercase tracking-widest">Happy Clients</p>
               </div>
             </div>
           </motion.div>
@@ -69,7 +69,7 @@ export function AboutSection() {
               <motion.div
                 key={index}
                 whileHover={{ y: -5 }}
-                className="p-8 bg-slate-50 rounded-2xl border border-slate-100 flex gap-6 items-start transition-all hover:shadow-xl hover:shadow-slate-200/50"
+                className="p-6 sm:p-8 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col sm:flex-row gap-4 sm:gap-6 items-start transition-all hover:shadow-xl hover:shadow-slate-200/50"
               >
                 <div className="p-3 bg-white rounded-xl shadow-sm border border-slate-100">
                   {value.icon}
