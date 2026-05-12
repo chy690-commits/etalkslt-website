@@ -51,22 +51,22 @@ export default function App() {
         {/* Stats Section */}
         <section className="py-20 bg-blue-600">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-4 text-center text-white">
               <div className="space-y-2">
-                <p className="text-4xl md:text-5xl font-black">500+</p>
-                <p className="text-sm font-bold uppercase tracking-wider opacity-60">클라우드 고객사</p>
+                <p className="text-3xl sm:text-4xl md:text-5xl font-black">500+</p>
+                <p className="text-[11px] sm:text-sm font-bold uppercase tracking-wider opacity-60">클라우드 고객사</p>
               </div>
               <div className="space-y-2">
-                <p className="text-4xl md:text-5xl font-black">150+</p>
-                <p className="text-sm font-bold uppercase tracking-wider opacity-60">SI/WEB 개발 완료</p>
+                <p className="text-3xl sm:text-4xl md:text-5xl font-black">150+</p>
+                <p className="text-[11px] sm:text-sm font-bold uppercase tracking-wider opacity-60">SI/WEB 개발 완료</p>
               </div>
               <div className="space-y-2">
-                <p className="text-4xl md:text-5xl font-black">98%</p>
-                <p className="text-sm font-bold uppercase tracking-wider opacity-60">고객 만족도</p>
+                <p className="text-3xl sm:text-4xl md:text-5xl font-black">98%</p>
+                <p className="text-[11px] sm:text-sm font-bold uppercase tracking-wider opacity-60">고객 만족도</p>
               </div>
               <div className="space-y-2">
-                <p className="text-4xl md:text-5xl font-black">10년+</p>
-                <p className="text-sm font-bold uppercase tracking-wider opacity-60">업계 경력</p>
+                <p className="text-3xl sm:text-4xl md:text-5xl font-black">10년+</p>
+                <p className="text-[11px] sm:text-sm font-bold uppercase tracking-wider opacity-60">업계 경력</p>
               </div>
             </div>
           </div>
