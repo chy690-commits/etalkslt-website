@@ -7,11 +7,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2 space-y-6">
-            <div className="flex items-center text-3xl font-black tracking-tight">
+            <div className="flex items-center text-2xl sm:text-3xl font-black tracking-tight mb-4 notranslate" translate="no">
               <span className="text-green-500 italic">e</span>
               <span className="text-slate-900">Talk</span>
-              <span className="text-slate-500 font-medium ml-1 text-xl">solution</span>
-              <Leaf size={24} className="text-green-400 -ml-0.5 mb-4" />
+              <span className="text-slate-500 font-medium ml-1 text-sm sm:text-xl lowercase">solution</span>
+              <Leaf size={20} className="text-green-400 -ml-0.5 mb-3 sm:mb-4" />
             </div>
             <p className="text-slate-500 max-w-sm leading-relaxed">
               {COMPANY_NAME}은 기업의 디지털 트랜스포메이션을 완성하는 
