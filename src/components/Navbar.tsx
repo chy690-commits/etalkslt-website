@@ -21,12 +21,13 @@ export function Navbar() {
           className="flex items-center gap-1 group"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
+          translate="no"
         >
-          <div className="flex items-center text-2xl font-black tracking-tight">
+          <div className="flex items-center text-xl sm:text-2xl font-black tracking-tight notranslate">
             <span className="text-green-500 italic">e</span>
             <span className={scrolled ? "text-slate-900" : "text-white"}>Talk</span>
-            <span className={scrolled ? "text-slate-600 font-medium ml-1 text-lg" : "text-slate-300 font-medium ml-1 text-lg"}>solution</span>
-            <Leaf size={18} className="text-green-400 -ml-0.5 mb-3 group-hover:rotate-12 transition-transform" />
+            <span className={scrolled ? "text-slate-500 font-medium ml-1 text-sm sm:text-lg lowercase" : "text-slate-300 font-medium ml-1 text-sm sm:text-lg lowercase"}>solution</span>
+            <Leaf size={16} className="text-green-400 -ml-0.5 mb-2 sm:mb-3 group-hover:rotate-12 transition-transform" />
           </div>
         </motion.a>
 
