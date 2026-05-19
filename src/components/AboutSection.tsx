@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Users, Target, Lightbulb, TrendingUp } from "lucide-react";
-import { BRAND_NAME } from "../constants";
+import { BRAND_NAME, COMPANY_NAME } from "../constants";
 
 const coreValues = [
   {
@@ -33,28 +33,28 @@ export function AboutSection() {
           >
             <div className="space-y-4">
               <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-blue-600">About US</h2>
-              <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
-                IT를 넘어 비즈니스의 <br className="hidden sm:block"/>
-                <span className="text-blue-600">정답을 제시합니다</span>
+              <h3 className="text-xl xs:text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight break-keep">
+                IT는 비즈니스를 <br className="hidden sm:block"/>
+                <span className="text-blue-600 font-black">새롭게 정의합니다</span>
               </h3>
             </div>
             
             <p className="text-lg text-slate-600 leading-relaxed">
-              {BRAND_NAME}은 단순한 시스템 구축을 넘어 기업의 본질적인 고민을 해결하고자 합니다. 
+              이토크솔루션(eTalk solution)은 단순한 시스템 구축을 넘어 기업의 본질적인 고민을 해결하고자 합니다. 
               우리는 복잡한 IT 업무를 빠르고 효과적으로 해결하여 고객사가 핵심 비즈니스에만 
               집중할 수 있는 환경을 구축합니다.
             </p>
 
             <div className="grid grid-cols-2 gap-4 sm:gap-8 pt-4">
               <div className="flex flex-col gap-1">
-                <p className="text-2xl sm:text-3xl font-black text-slate-900 flex items-center gap-2">
-                  10+ <span className="text-blue-600"><TrendingUp size={20} className="sm:w-6 sm:h-6" /></span>
+                <p className="text-xl sm:text-3xl font-black text-slate-900 flex items-center gap-2">
+                  10년 이상 <span className="text-blue-600"><TrendingUp size={18} className="sm:w-6 sm:h-6" /></span>
                 </p>
-                <p className="text-[10px] sm:text-sm font-bold text-slate-400 uppercase tracking-widest">Years of Experience</p>
+                <p className="text-[10px] sm:text-sm font-bold text-slate-400 uppercase tracking-widest">경력 연수</p>
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-2xl sm:text-3xl font-black text-slate-900">500+</p>
-                <p className="text-[10px] sm:text-sm font-bold text-slate-400 uppercase tracking-widest">Happy Clients</p>
+                <p className="text-xl sm:text-3xl font-black text-slate-900">500개 이상</p>
+                <p className="text-[10px] sm:text-sm font-bold text-slate-400 uppercase tracking-widest">만족한 고객들</p>
               </div>
             </div>
           </motion.div>
