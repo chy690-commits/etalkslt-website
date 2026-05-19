@@ -33,7 +33,7 @@ export function Hero({ onConsultationClick }: HeroProps) {
             <span className="text-blue-500">스마트 IT 파트너</span>
           </h1>
             <p className="text-base md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
-              {COMPANY_NAME}은 SI/WEB 개발부터 협업 솔루션, 문서 보안까지 
+              이토크솔루션(eTalk solution)은 SI/WEB 개발부터 협업 솔루션, 문서 보안까지 
               기업의 성장에 필요한 모든 IT 여정을 제안하고 함께합니다.
             </p>
           
