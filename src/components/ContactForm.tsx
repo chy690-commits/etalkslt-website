@@ -46,11 +46,13 @@ export function ContactForm() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row gap-20 items-stretch">
           <div className="flex-1 space-y-8">
-            <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight">
-              함께 <br/>
-              성공을 만들어갈 <br/>
-              <span className="text-blue-500">준비가 되셨나요?</span>
+            <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight leading-tight break-keep">
+              <span className="block whitespace-nowrap mb-1">기업의 미래 가치를 높이는,</span>
+              <span className="text-blue-500 block">맞춤형 IT 솔루션의 힘</span>
             </h2>
+            <p className="text-slate-400 text-sm md:text-base font-medium opacity-80 uppercase tracking-widest mt-2">
+              Empowering Corporate Future, Custom Solutions
+            </p>
             <p className="text-slate-400 text-lg leading-relaxed">
               프로젝트의 성격에 맞는 최적의 솔루션을 제안해 드립니다. <br/>
               지금 바로 전문가와 상담하세요.
@@ -181,3 +183,4 @@ export function ContactForm() {
     </section>
   );
 }
+
