@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { useState, FormEvent } from "react";
-import { CONTACT_INFO } from "../constants";
+import { CONTACT_INFO, COMPANY_NAME } from "../constants";
 
 export function ContactForm() {
   const [formData, setFormData] = useState({
@@ -46,10 +46,13 @@ export function ContactForm() {
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="flex flex-col lg:flex-row gap-20 items-stretch">
           <div className="flex-1 space-y-8">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight leading-tight break-keep">
-              <span className="block whitespace-nowrap mb-1">기업의 미래 가치를 높이는,</span>
-              <span className="text-blue-500 block">맞춤형 IT 솔루션의 힘</span>
-            </h2>
+            <div className="space-y-4">
+              <p className="text-blue-500 font-bold text-sm md:text-base tracking-wider">{COMPANY_NAME}</p>
+              <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight leading-tight break-keep">
+                <span className="block whitespace-nowrap mb-1">기업의 미래 가치를 높이는,</span>
+                <span className="text-blue-500 block">맞춤형 IT 솔루션의 힘</span>
+              </h2>
+            </div>
             <p className="text-slate-400 text-sm md:text-base font-medium opacity-80 uppercase tracking-widest mt-2">
               Empowering Corporate Future, Custom Solutions
             </p>
@@ -183,4 +186,3 @@ export function ContactForm() {
     </section>
   );
 }
-
