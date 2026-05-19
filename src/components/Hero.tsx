@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { ChevronRight } from "lucide-react";
-import { BRAND_NAME } from "../constants";
+import { BRAND_NAME, COMPANY_NAME } from "../constants";
 
 interface HeroProps {
   onConsultationClick?: () => void;
@@ -28,14 +28,14 @@ export function Hero({ onConsultationClick }: HeroProps) {
           <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-blue-400 uppercase bg-blue-400/10 rounded-full border border-blue-400/20">
             Innovative IT Solutions
           </span>
-          <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight px-4 sm:px-0">
+          <h1 className="text-2xl xs:text-4xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-[1.4] sm:leading-[1.1] tracking-tight px-2 sm:px-0 break-keep">
             비즈니스의 미래를 여는 <br className="hidden sm:block"/>
             <span className="text-blue-500">스마트 IT 파트너</span>
           </h1>
-          <p className="text-base md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
-            {BRAND_NAME}은 SI/WEB 개발부터 협업 솔루션, 문서 보안까지 
-            기업의 성장에 필요한 모든 IT 여정을 제안하고 함께합니다.
-          </p>
+            <p className="text-base md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
+              {COMPANY_NAME}은 SI/WEB 개발부터 협업 솔루션, 문서 보안까지 
+              기업의 성장에 필요한 모든 IT 여정을 제안하고 함께합니다.
+            </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="#si-web" className="group bg-blue-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-all flex items-center gap-2 shadow-2xl shadow-blue-500/20">
