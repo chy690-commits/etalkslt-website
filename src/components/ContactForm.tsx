@@ -47,9 +47,9 @@ export function ContactForm() {
         <div className="flex flex-col lg:flex-row gap-20 items-stretch">
           <div className="flex-1 space-y-8">
             <div className="space-y-4">
-              <p className="text-blue-500 font-bold text-sm md:text-base tracking-wider">{COMPANY_NAME}</p>
+              <p className="text-blue-500 font-bold text-sm md:text-base tracking-wider">이토크솔루션(eTalk solution)</p>
               <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight leading-tight break-keep">
-                <span className="block whitespace-nowrap mb-1">기업의 미래 가치를 높이는,</span>
+                <span className="block">기업의 미래 가치를 높이는,</span>
                 <span className="text-blue-500 block">맞춤형 IT 솔루션의 힘</span>
               </h2>
             </div>
