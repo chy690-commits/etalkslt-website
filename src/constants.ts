@@ -105,7 +105,7 @@ export const PROPOSAL_DETAILS = {
 };
 
 export const GROUPWARE_DETAILS = {
-  intro: "의사결정, 협업, 소통. 그룹웨어 하나면 충분합니다. 700여 개의 대규모 사용자 사이트 구축을 통해 안정성이 검증된 솔루션입니다.",
+  intro: "의사결정, 협업, 소통. 그룹웨어 하나면 충분합니다. 100여 개의 대규모 사용자 사이트 구축을 통해 안정성이 검증된 솔루션입니다.",
   mainFeatures: [
     {
       title: "전자결재 시스템",
@@ -221,19 +221,29 @@ export const GOVERNMENT_DETAILS = {
 };
 
 export const MAJOR_CLIENTS = [
-  { name: "화신", category: "제조", shortName: "HWASHIN", color: "#1B56A3" },
+  { name: "SG메디칼", category: "제조/의료", shortName: "SG MEDICAL", color: "#BA2229" },
+  { name: "에이치앤이루자", category: "제조", shortName: "H&iruja", color: "#6C2E83" },
+  { name: "씨에스케이", category: "제조/IT", shortName: "CSK", color: "#E30613" },
+  { name: "농우바이오", category: "제조/바이오", shortName: "농우바이오", color: "#0072BC" },
+  { name: "평화홀딩스", category: "제조", shortName: "평화홀딩스", color: "#1D428A" },
+  { name: "한국섬유소재연구원", category: "공공/연구", shortName: "KOTERI", color: "#1C56A3" },
+  { name: "바인테크", category: "정보기기", shortName: "Vinetech", color: "#004B8D" },
+  { name: "KH 바텍", category: "정밀부품", shortName: "KH VATEC", color: "#000000" },
+  { name: "열린기술", category: "기술서비스", shortName: "열린기술", color: "#E30613" },
+  { name: "마리아 병원", category: "의료", shortName: "MARIA", color: "#7BAE2A" },
+  { name: "화신", category: "자동차부품", shortName: "HWASHIN", color: "#1B56A3" },
   { name: "SM창명해운", category: "해운/물류", shortName: "SM", color: "#E50012" },
   { name: "템플스테이", category: "문화/예술", shortName: "템플스테이", color: "#736E5D" },
   { name: "제닉", category: "제조/뷰티", shortName: "GENIC", color: "#B38676" },
-  { name: "바이넥스", category: "제조/의료", shortName: "BINEX", color: "#E50012" },
-  { name: "연합정밀", category: "제조/IT", shortName: "연합정밀", color: "#0072BB" },
-  { name: "한국자동차산업협회", category: "공공/협회", shortName: "kama", color: "#004B8D" },
-  { name: "코츠", category: "제조", shortName: "COTS", color: "#004B8D" },
-  { name: "동양이엔피", category: "제조", shortName: "DONG YANG", color: "#E50012" },
+  { name: "바이넥스", category: "제조/의약", shortName: "BINEX", color: "#E50012" },
+  { name: "연합정밀", category: "제조/정밀", shortName: "연합정밀", color: "#0072BB" },
+  { name: "한국자동차산업협회", category: "공공/협회", shortName: "KAMA", color: "#004B8D" },
+  { name: "코츠", category: "제조/IT", shortName: "COTS", color: "#004B8D" },
+  { name: "동양이엔피", category: "에너지원", shortName: "DONG YANG", color: "#E50012" },
   { name: "에이스메디칼", category: "제조/의료", shortName: "ACE", color: "#004B8D" },
-  { name: "두원", category: "제조", shortName: "DOOWON", color: "#0072BB" },
+  { name: "두원", category: "자동차부품", shortName: "DOOWON", color: "#0072BB" },
   { name: "신진엠텍", category: "제조", shortName: "SHINJIN", color: "#E50012" },
-  { name: "한스바이오메드", category: "제조/의료", shortName: "HANS", color: "#004B8D" },
-  { name: "KOC전기", category: "제조/전기", shortName: "KOC", color: "#E54C11" },
-  { name: "한국미니맥스", category: "제조", shortName: "HKMAX", color: "#004B8D" }
+  { name: "한스바이오메드", category: "의료기기", shortName: "HANS", color: "#004B8D" },
+  { name: "KOC전기", category: "에너지/전기", shortName: "KOC", color: "#E54C11" },
+  { name: "한국미니맥스", category: "정밀제조", shortName: "HKMAX", color: "#004B8D" }
 ];
