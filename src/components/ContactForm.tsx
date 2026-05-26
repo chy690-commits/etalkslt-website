@@ -49,8 +49,8 @@ export function ContactForm() {
             <div className="space-y-4">
               <p className="text-blue-500 font-bold text-sm md:text-base tracking-wider">이토크솔루션(eTalk solution)</p>
               <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight leading-tight break-keep">
-                <span className="block">기업의 미래 가치를 높이는,</span>
-                <span className="text-blue-500 block">맞춤형 IT 솔루션의 힘</span>
+                <span className="block sm:whitespace-nowrap">기업의 미래 가치를 높이는,</span>
+                <span className="text-blue-500 block sm:whitespace-nowrap">맞춤형 IT 솔루션의 힘</span>
               </h2>
             </div>
             <p className="text-slate-400 text-sm md:text-base font-medium opacity-80 uppercase tracking-widest mt-2">
@@ -186,3 +186,4 @@ export function ContactForm() {
     </section>
   );
 }
+
