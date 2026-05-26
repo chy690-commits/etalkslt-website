@@ -30,7 +30,7 @@ export function Hero({ onConsultationClick }: HeroProps) {
           </span>
           <h1 className="text-2xl xs:text-4xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-[1.4] sm:leading-[1.1] tracking-tight px-2 sm:px-0 break-keep">
             비즈니스의 미래를 여는 <br className="hidden sm:block"/>
-            <span className="text-blue-500">스마트 IT 파트너</span>
+            <span className="text-blue-500">IT 정보화 지원 컨설팅</span>
           </h1>
             <p className="text-base md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed px-4 sm:px-0">
               이토크솔루션(eTalk solution)은 SI/WEB 개발부터 협업 솔루션, 문서 보안까지 
